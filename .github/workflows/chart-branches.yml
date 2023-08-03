@@ -71,6 +71,7 @@ jobs:
       chart_name: golang-external-secrets
       upstream_repository: mbaldessari/common-sandbox
       target_repository: mbaldessari/golang-external-secrets-chart
+      force: true
     secrets: inherit
 
   hashicorp-vault:
@@ -84,6 +85,7 @@ jobs:
       chart_name: hashicorp-vault
       upstream_repository: mbaldessari/common-sandbox
       target_repository: mbaldessari/hashicorp-vault-chart
+      force: true
     secrets: inherit
 
   letsencrypt:
@@ -97,6 +99,7 @@ jobs:
       chart_name: letsencrypt
       upstream_repository: mbaldessari/common-sandbox
       target_repository: mbaldessari/letsencrypt-chart
+      force: true
     secrets: inherit
 
   clustergroup:
@@ -110,4 +113,5 @@ jobs:
       chart_name: clustergroup
       upstream_repository: mbaldessari/common-sandbox
       target_repository: mbaldessari/clustergroup-chart
+      force: true
     secrets: inherit
