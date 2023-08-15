@@ -35,4 +35,4 @@ jobs:
           git subtree split -P "${N}" -b "${B}"
           git push -f -u origin "${B}"
           #git clone https://validatedpatterns:${GITHUB_TOKEN}@github.com/validatedpatterns/common.git -b "acm-main-single-chart" --single-branch
-          git push --force https://validatedpatterns:${GITHUB_TOKEN}@github.com/validatedpatterns/${{ inputs.target_repository }}.git "${B}:main"
+          git push --force https://validatedpatterns:${GITHUB_TOKEN}@github.com/${{ inputs.target_repository }}.git "${B}:main"
